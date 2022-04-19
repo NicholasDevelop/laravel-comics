@@ -54,7 +54,7 @@ li {
 }
 
 .jumbo {
-  background: url(/public/img/jumbotron.jpg);
+  background: url(/img/jumbotron.jpg);
   background-position: top center;
   background-size: cover;
   height: 320px;

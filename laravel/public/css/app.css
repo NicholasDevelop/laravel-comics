@@ -60,6 +60,111 @@ li {
   height: 320px;
 }
 
+.current-series-container {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+}
+
+.current-series-container .jumbo {
+  background: url(/img/jumbotron.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 320px;
+}
+
+.current-series-container .current-series {
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  padding: 30px 0 15px 0;
+}
+
+.current-series-container .current-series button {
+  background-color: #0C7CEC;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+}
+
+.current-series-container .current-series .card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.current-series-container .current-series .btn-series {
+  padding: 7px 15px;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+.current-series-container .current-series .btn-more {
+  padding: 7px 30px;
+  font-size: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.shop-container {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0C7CEC;
+  color: white;
+}
+
+.shop-container .shop {
+  width: 964px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop-container .shop .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.shop-container .shop .card img {
+  height: 50px;
+}
+
+.shop-container .shop .card .special-size {
+  width: 50px;
+}
+
+.shop-container .shop .card h3 {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.card-item {
+  width: calc(16.6666666667% - 15px);
+}
+
+.card-item img {
+  aspect-ratio: 1;
+  -o-object-position: top center;
+     object-position: top center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card-item h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-bottom: 30px;
+}
+
 .bottom-link-container {
   background: url(/img/footer-bg.jpg);
   background-position: center;

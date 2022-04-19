@@ -1,0 +1,104 @@
+.current-series-container{
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+
+    .jumbo{
+        background: url(/img/jumbotron.jpg);
+        background-position: top center;
+        background-size: cover;
+        height: 320px;
+    }
+
+    .current-series{
+        width: 1024px;
+        margin: 0 auto;
+        position: relative;
+        padding: 30px 0 15px 0;
+
+        button{
+            background-color: #0C7CEC;
+            color: white;
+            text-transform: uppercase;            
+            font-weight: 600;
+            border: none;
+        }
+
+        .card-wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .btn-series{
+            padding: 7px 15px;
+            position: absolute;
+            top: 0;
+            transform: translateY(-50%);
+        }
+
+        .btn-more{
+            padding: 7px 30px;
+            font-size: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+
+.shop-container{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0C7CEC;
+    color: white;
+
+    .shop{
+        width: calc(1024px - 60px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .card{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+
+            img{
+                height: 50px;
+            }
+
+            .special-size{
+                width: 50px;
+            }
+
+            h3{
+                font-weight: 500;
+                font-size: 12px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+
+// CARD COMPONENT
+.card-item{
+    width: calc(100%/6 - 15px);
+
+    img{
+        aspect-ratio: 1;
+        object-position: top center;
+        object-fit: cover;    
+        margin-bottom: 10px;    
+    }
+
+    h3{
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 11px;
+        margin-bottom: 30px;
+    }
+}

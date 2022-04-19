@@ -1,7 +1,7 @@
 @extends('layouts.standard')
 
 @section('metaTitle')
-    Home page
+    Comics
 @endsection
 
 @section('content')
@@ -12,11 +12,6 @@
             <button class="btn-series">Current Series</button>
 
             <ul class="card-wrapper">
-            {{-- <Comic v-for="(element,i) in comics" :key="i" :srcThumb="element.thumb" :title="element.series" /> --}}
-            {{-- <li class="card-item">
-                <img :src="srcThumb" alt="">
-                <h3>{{title}}</h3>
-            </li> --}}
             @foreach ($comics as $comic)
             <li class="card-item">
                 <img src="{{ $comic['thumb'] }}" alt="">

@@ -5,16 +5,16 @@
         </figure>
 
         <ul class="navbar">
-            <li class="nav-list"><a href="#">Characters</a></li>
-            <li class="nav-list active"><a class="active" href="#">Comics</a></li>
-            <li class="nav-list"><a href="#">Movies</a></li>
-            <li class="nav-list"><a href="#">Tv</a></li>
-            <li class="nav-list"><a href="#">Games</a></li>
-            <li class="nav-list"><a href="#">Collectibles</a></li>
-            <li class="nav-list"><a href="#">Videos</a></li>
-            <li class="nav-list"><a href="#">Fans</a></li>
-            <li class="nav-list"><a href="#">News</a></li>
-            <li class="nav-list"><a href="#">Shop</a></li>
+            <li class="nav-list"><a href="../characters">Characters</a></li>
+            <li class="nav-list active"><a class="active" href="/">Comics</a></li>
+            <li class="nav-list"><a href="../movies">Movies</a></li>
+            <li class="nav-list"><a href="../tv">Tv</a></li>
+            <li class="nav-list"><a href="../games">Games</a></li>
+            <li class="nav-list"><a href="../collectibles">Collectibles</a></li>
+            <li class="nav-list"><a href="../videos">Videos</a></li>
+            <li class="nav-list"><a href="../fans">Fans</a></li>
+            <li class="nav-list"><a href="../news">News</a></li>
+            <li class="nav-list"><a href="../shop">Shop</a></li>
         </ul>
 
     </div>

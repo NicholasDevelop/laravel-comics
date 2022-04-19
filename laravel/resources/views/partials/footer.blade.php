@@ -60,19 +60,19 @@
                 <h3 class="social-title">Follow Us</h3>
                 <ul class="social-list-link">
                     <li class="social-link">
-                        <img class="special-size" src="../assets/img/footer-facebook.png" alt="">
+                        <img class="special-size" src="/public/img/footer-facebook.png" alt="">
                     </li>
                     <li class="social-link">
-                        <img class="special-size" src="../assets/img/footer-twitter.png" alt="">
+                        <img class="special-size" src="/public/img/footer-twitter.png" alt="">
                     </li>
                     <li class="social-link">
-                        <img class="special-size" src="../assets/img/footer-youtube.png" alt="">
+                        <img class="special-size" src="/public/img/footer-youtube.png" alt="">
                     </li>
                     <li class="social-link">
-                        <img class="special-size" src="../assets/img/footer-pinterest.png" alt="">
+                        <img class="special-size" src="/public/img/footer-pinterest.png" alt="">
                     </li>
                     <li class="social-link">
-                        <img class="special-size" src="../assets/img/footer-periscope.png" alt="">
+                        <img class="special-size" src="/public/img/footer-periscope.png" alt="">
                     </li>
                 </ul>
             </div>

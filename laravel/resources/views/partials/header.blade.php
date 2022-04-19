@@ -1,7 +1,7 @@
 <header class="header">
     <div class="container">
         <figure>
-            <img src="{{asset('/laravel/public/img/dc-logo.png')}}" alt="">
+            <img src="{{asset('/img/dc-logo.png')}}" alt="">
         </figure>
 
         <ul class="navbar">

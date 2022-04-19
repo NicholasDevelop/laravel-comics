@@ -13,6 +13,19 @@
     list-style: none;
   }
 
+//   HEADER CSS
   @import'../sass/partials/header.scss';
 
+.jumbo{
+    background: url(/public/img/jumbotron.jpg);
+    background-position: top center;
+    background-size: cover;
+    height: 320px;
+}
+
+
+
+
+
+// FOOTER CSS
   @import'../sass/partials/footer.scss';

@@ -53,8 +53,15 @@ li {
   color: #0C7CEC;
 }
 
+.jumbo {
+  background: url(/public/img/jumbotron.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 320px;
+}
+
 .bottom-link-container {
-  background: url(/public/img/footer-bg.jpg);
+  background: url(/img/footer-bg.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -62,7 +69,7 @@ li {
 .bottom-link-container .bottom-link {
   width: 1024px;
   margin: 0 auto;
-  background: url(/public/img/dc-logo-bg.png);
+  background: url(/img/dc-logo-bg.png);
   background-repeat: no-repeat;
   background-position: right center;
   display: flex;

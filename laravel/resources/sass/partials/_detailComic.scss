@@ -1,0 +1,19 @@
+main{
+
+    .blue-banner{
+        height: 80px;
+        background-color: #0C7CEC;
+
+        .container-detail-comic{
+            width: 900px;
+            margin: 0 auto;
+            position: relative;
+
+            .img-detail-comic{
+                position: absolute;
+                bottom: -60px;
+                left: 0;
+            }
+        }
+    }
+}

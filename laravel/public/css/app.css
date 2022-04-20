@@ -170,6 +170,23 @@ a {
   margin-bottom: 30px;
 }
 
+main .blue-banner {
+  height: 80px;
+  background-color: #0C7CEC;
+}
+
+main .blue-banner .container-detail-comic {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+main .blue-banner .container-detail-comic .img-detail-comic {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+}
+
 .bottom-link-container {
   background: url(/img/footer-bg.jpg);
   background-position: center;

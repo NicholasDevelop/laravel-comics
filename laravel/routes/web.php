@@ -24,7 +24,7 @@ Route::get('/', function () {
     $comics = config('comics');
 
     return view('comics')
-    ->with('comics',$comics);
+    ->with('comics', $comics);
 })->name('comics.index');
 
 Route::get('/comics/{id}', function ($id) {

@@ -33,14 +33,79 @@
                 </div>
                 <p>{{ $comic['description'] }}</p>
             </div>
-            <img src="{{asset('img/adv.jpg')}}" alt="">
+            <img src="{{asset('img/show.jpg')}}" alt="">
         </div>
-
     </div>
 </section>
 
-<section class="nav-detail-comic">
+<section class="detail-comic">
+    <div class="container-detail-comic">
+        <div class="talent-comic">
+            <h3>Talent</h3>
+            <div class="art-talent">
+                <h5>Art by:</h5>
+                <div>
+                    @foreach($comic['artists'] as $key => $value)
+                        <a href="#">{{ $value }}</a>
+                        @if( $key != count( $comic['artists']) -1 )
+                            <span>, </span>
+                        @endif
+                    @endforeach
+                </div>
+            </div>
+            <div class="written-talent">
+                <h5>Written by:</h5>
+                <div>
+                    @foreach($comic['writers'] as $key => $value)
+                        <a href="#">{{ $value }}</a>
+                        @if( $key != count( $comic['writers']) -1 )
+                            <span>, </span>
+                        @endif
+                    @endforeach
+                </div>
+            </div>
+        </div>
 
+        <div class="specs-comic">
+            <h3>Specs</h3>
+            <div class="series-specs">
+                <h5>Series:</h5>
+                <a href="" class="uppercase">{{ $comic['series'] }}</a>
+            </div>
+            <div class="price-specs">
+                <h5>U.S. Price:</h5>
+                <p>{{ $comic['price'] }}</p>
+            </div>
+            <div class="sale-date-specs">
+                <h5>On Sale Date:</h5>
+                <p>{{ $comic['sale_date'] }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="nav-comic">
+    <div class="container-detail-comic">
+        <div class="digital">
+            <h3 class="uppercase">Digital Comics</h3>
+            <img src="/img/cta-icons.png" alt="">
+        </div>
+
+        <div class="shop">
+            <h3 class="uppercase">Shop Dc</h3>
+            <img src="/img/cta-icons.png" alt="">
+        </div>
+
+        <div class="locator">
+            <h3 class="uppercase">Comic Shop Locator</h3>
+            <img src="/img/cta-icons.png" alt="">
+        </div>
+
+        <div class="subscription">
+            <h3 class="uppercase">Subscription</h3>
+            <img src="/img/cta-icons.png" alt="">
+        </div>
+    </div>
 </section>
 
 @endsection

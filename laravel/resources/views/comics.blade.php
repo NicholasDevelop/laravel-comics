@@ -13,8 +13,8 @@
 
             <div class="card-wrapper">
                 @foreach ($comics as $key => $comic)
-                <a href="comics/{{ $key }}" class="card-item">
-                {{-- <a href="{{ route('comics.show'), ['id' => $key] }}" class="card-item"> --}}
+                {{-- <a href="comics/{{ $key }}" class="card-item"> --}}
+                <a href="{{ route('comics.show', ['id' => $key]) }}" class="card-item">
                     <img src="{{ $comic['thumb'] }}" alt="">
                     <h3>{{ $comic['title'] }}</h3>
                 </a>

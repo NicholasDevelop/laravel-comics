@@ -1,98 +1,226 @@
-main{
+.blue-banner{
+    height: 80px;
+    background-color: #0C7CEC;
 
-    .blue-banner{
-        height: 80px;
-        background-color: #0C7CEC;
+    .container-detail-comic{
+        position: relative;
 
-        .container-detail-comic{
-            position: relative;
-
-            .img-detail-comic{
-                position: absolute;
-                bottom: -60px;
-                left: 0;
-            }
+        .img-detail-comic{
+            position: absolute;
+            bottom: -60px;
+            left: 0;
         }
     }
+}
 
-    .main-detail-comic{
-        padding: 40px 0;
+.main-detail-comic{
+    padding: 40px 0;
 
-        .container-detail-comic{
+    .container-detail-comic{
 
-            h4{
-                text-transform: uppercase;
-                text-align: right;
-                color: rgba(0, 0, 0, 0.603);
-                font-size: 14px;
-            }
+        h4{
+            text-transform: uppercase;
+            text-align: right;
+            color: rgba(0, 0, 0, 0.603);
+            font-size: 14px;
+        }
 
-            .sub-container-detail-comic{
-                display: flex;
-                gap: 20px;
+        .sub-container-detail-comic{
+            display: flex;
+            gap: 30px;
 
-                .comic-information{
+            .comic-information{
 
-                    h1{
-                        text-transform: uppercase;
-                        color: rgb(18, 18, 72);
-                        margin-bottom: 20px;
-                    }
+                h1{
+                    text-transform: uppercase;
+                    color: rgb(23, 23, 103);
+                    margin-bottom: 20px;
+                }
 
-                    .available-comic{
+                .available-comic{
+                    display: flex;
+                    margin-bottom: 13px;
+    
+                    .available-price{
                         display: flex;
-                        margin-bottom: 13px;
-        
-                        .available-price{
-                            display: flex;
-                            align-items: center;
-                            justify-content: space-between;
-                            padding: 10px 18px;
-                            background-color: #55ba59;
-                            border-right: 1px solid black;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 10px 18px;
+                        background-color: #55ba59;
+                        border-right: 1px solid black;
+                        flex-grow: 1;
 
 
-                            .available-price-left{
-                                flex-grow: 1;
-                                color: rgba(255, 255, 255, 0.523);
+                        .available-price-left{
+                            color: rgba(255, 255, 255, 0.523);
 
-                                span{
-                                    color: white;
-                                }
-                            }
-
-                            .available-price-right{
-                                text-transform: uppercase;
-                                font-size: 12px;
-                                color: rgba(255, 255, 255, 0.523);
-                            }
-                        }
-
-                        .available-comic-status{
-                            padding: 0 18px;
-                            background-color: #55ba59;                            
-
-                            select{
-                                height: 100%;
-                                border: none;
-                                background-color: #55ba59;
+                            span{
                                 color: white;
                             }
                         }
+
+                        .available-price-right{
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            color: rgba(255, 255, 255, 0.523);
+                        }
                     }
 
-                    p{
-                        color: rgba(0, 0, 0, 0.655);
-                        font-size: 14px;
+                    .available-comic-status{
+                        padding: 0 18px;
+                        background-color: #55ba59;                            
+
+                        select{
+                            height: 100%;
+                            border: none;
+                            background-color: #55ba59;
+                            color: white;
+                        }
                     }
                 }
+
+                p{
+                    color: rgba(0, 0, 0, 0.655);
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+    }
+}
+
+.detail-comic{
+    border-bottom: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+    padding: 30px 0 110px 0;
+    background-color: rgb(246, 246, 246);
+
+    .container-detail-comic{
+        display: flex;
+        gap: 40px;
+
+        .talent-comic{
+            width: 50%;
+
+            h3{
+                color: rgb(23, 23, 103);
+                padding-bottom: 30px;
+                border-bottom: 1px solid #d8d8d8;
             }
 
+            .art-talent, .written-talent{
+                padding: 10px 0;
+                border-bottom: 1px solid #d8d8d8;
+                display: flex;
+            }
+
+            .written-talent{
+                
+            }
         }
+
+        .specs-comic{
+            flex-grow: 1;
+
+            h3{
+                color: rgb(23, 23, 103);
+                padding-bottom: 30px;
+                border-bottom: 1px solid #d8d8d8;
+            }
+
+            .series-specs, .price-specs, .sale-date-specs{
+                padding: 10px 0;
+                border-bottom: 1px solid #d8d8d8;
+                display: flex;
+            }
+
+            .price-specs{
+
+            }
+
+            .sale-date-specs{
+
+            }
+        }
+    }
+}
+
+.detail-comic{
+
+    h5{
+        color: rgb(23, 23, 103);
+        min-width: 35%;
+    }
+
+    a{
+        color: rgb(47, 169, 203);
+        font-size: 14px;
+        font-weight: 500;
+
+    }
+
+    p{
+        font-size: 14px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.655);
+    }
+}
+
+.nav-comic{
+    background-color: rgb(246, 246, 246);
+
+    .container-detail-comic{
+        border-left: 1px solid #d8d8d8;
+        display: flex;
+
+        .digital, .shop, .locator, .subscription{
+            color: #aeaeae;
+            padding: 20px;
+            border-right: 1px solid #d8d8d8;
+            flex-grow: 1;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .digital{
+
+            img{
+
+            }
+        }
+
+        .shop{
+
+        }
+
+        .locator{
+
+        }
+
+        .subscription{
+
+        }
+    }
+}
+
+.nav-comic{
+    h3{
+        font-size: 12px;
+    }
+
+    img{
+        width: 37px;
+        height: 37px;
+        object-fit: none;
     }
 }
 
 .container-detail-comic{
     width: 900px;
     margin: 0 auto;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }

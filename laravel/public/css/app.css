@@ -339,8 +339,56 @@ a {
   justify-content: space-between;
 }
 
+.nav-comic .container-detail-comic .digital:hover h3,
+.nav-comic .container-detail-comic .shop:hover h3,
+.nav-comic .container-detail-comic .locator:hover h3,
+.nav-comic .container-detail-comic .subscription:hover h3 {
+  color: #0C7CEC;
+}
+
+.nav-comic .container-detail-comic .digital:hover img {
+  -o-object-position: 4px -37px;
+     object-position: 4px -37px;
+}
+
+.nav-comic .container-detail-comic .digital img {
+  -o-object-position: 4px 1px;
+     object-position: 4px 1px;
+}
+
+.nav-comic .container-detail-comic .shop:hover img {
+  -o-object-position: -109px -37px;
+     object-position: -109px -37px;
+}
+
+.nav-comic .container-detail-comic .shop img {
+  -o-object-position: -109px 1px;
+     object-position: -109px 1px;
+}
+
+.nav-comic .container-detail-comic .locator:hover img {
+  -o-object-position: -74px -37px;
+     object-position: -74px -37px;
+}
+
+.nav-comic .container-detail-comic .locator img {
+  -o-object-position: -74px 1px;
+     object-position: -74px 1px;
+}
+
+.nav-comic .container-detail-comic .subscription:hover img {
+  -o-object-position: -37px -37px;
+     object-position: -37px -37px;
+}
+
+.nav-comic .container-detail-comic .subscription img {
+  -o-object-position: -37px 1px;
+     object-position: -37px 1px;
+}
+
 .nav-comic h3 {
   font-size: 12px;
+  transition: 0.7s;
 }
 
 .nav-comic img {
@@ -348,6 +396,7 @@ a {
   height: 37px;
   -o-object-fit: none;
      object-fit: none;
+  transition: 0.7s;
 }
 
 .container-detail-comic {

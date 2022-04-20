@@ -181,25 +181,54 @@
             flex-grow: 1;
             display: flex;
             justify-content: space-between;
+
+            &:hover h3{
+                color: #0C7CEC;
+            }
         }
 
         .digital{
 
-            img{
+            &:hover img{
+                object-position: 4px -37px;
+            }
 
+            img{
+                object-position: 4px 1px;
             }
         }
 
         .shop{
 
+            &:hover img{
+                object-position: -109px -37px;
+            }
+
+            img{
+                object-position: -109px 1px;
+            }
         }
 
         .locator{
 
+            &:hover img{
+                object-position: -74px -37px;
+            }
+
+            img{
+                object-position: -74px 1px;
+            }
         }
 
         .subscription{
 
+            &:hover img{
+                object-position: -37px -37px;
+            }
+
+            img{
+                object-position: -37px 1px;
+            }
         }
     }
 }
@@ -207,12 +236,14 @@
 .nav-comic{
     h3{
         font-size: 12px;
+        transition: 0.7s;
     }
 
     img{
         width: 37px;
         height: 37px;
         object-fit: none;
+        transition: 0.7s;
     }
 }
 

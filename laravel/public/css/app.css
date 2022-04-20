@@ -12,6 +12,11 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
 .header .container {
   max-width: 1024px;
   margin: 0 auto;

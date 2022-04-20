@@ -6,7 +6,7 @@
 
         <ul class="navbar">
             <li class="nav-list"><a href="../characters">Characters</a></li>
-            <li class="nav-list active"><a class="active" href="/">Comics</a></li>
+            <li class="nav-list active"><a class="active" href="{{ route('comics.index') }}">Comics</a></li>
             <li class="nav-list"><a href="../movies">Movies</a></li>
             <li class="nav-list"><a href="../tv">Tv</a></li>
             <li class="nav-list"><a href="../games">Games</a></li>
